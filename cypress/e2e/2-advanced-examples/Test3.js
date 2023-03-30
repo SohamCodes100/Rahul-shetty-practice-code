@@ -46,6 +46,8 @@ describe('My Second Test Suite', function(){
 
         //radio button
 
+        
+
         cy.get('[value ="radio2"]').check().should('be.checked')
        
     
